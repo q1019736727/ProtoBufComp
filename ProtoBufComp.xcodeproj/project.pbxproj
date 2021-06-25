@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A84EB61865F80A7938B02C9 /* user_centerinfo.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE4C57D7F63C9618B5D0D70 /* user_centerinfo.pb.swift */; };
+		178F508C1599DF7F37458598 /* user_updateinfo.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6901A2C85865F9AC31A063 /* user_updateinfo.pb.swift */; };
+		1F2675D4B9CBF206B29E6572 /* user_oldpassword.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA21BD58C4380FBBCA11628 /* user_oldpassword.pb.swift */; };
+		24B6C750753326CA47579BD5 /* home_hospital.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF6EC884E15B0390E03E087 /* home_hospital.pb.swift */; };
+		29EC96585EA7B49ADCEDCCA8 /* home_3dappoint.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EB44151BBB81D04EFF02C9 /* home_3dappoint.pb.swift */; };
+		2B25C20BBB3D0EE9AACEEBFB /* wiki.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65D8CC7BDCE03967EAA792 /* wiki.pb.swift */; };
+		2D2E1930E6F25AFA5084B0E4 /* satisfaction.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46960A820A9AA78433D41B7 /* satisfaction.pb.swift */; };
+		307E078433F25F5234F6BA71 /* order.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB0B5D1BA555291BB96663 /* order.pb.swift */; };
+		357C8662D5E04C7B3E577B3B /* Pods_ProtoBufCompTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D2483B5236405F425AD499 /* Pods_ProtoBufCompTests.framework */; };
+		3697C7D95D6CC82F67752329 /* user_visitrecords.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777A35C98CE0093188B43F27 /* user_visitrecords.pb.swift */; };
+		3AB9767851851B17ED2AB8BF /* public.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980A5D0CE8CC3E9CC038CFA0 /* public.pb.swift */; };
+		3CC8C790A3B20C68DCAF4AC8 /* Pods_ProtoBufComp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37824CDDB82311315BAF0744 /* Pods_ProtoBufComp.framework */; };
+		413C46ED31A8C5274F108405 /* complaintpraise.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB95FC077A8E8535A17293A /* complaintpraise.pb.swift */; };
+		45BEE2DDF0A9FB9F2CECD809 /* signout.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108FB68042FB9D0B40BC3769 /* signout.pb.swift */; };
+		5017CEAFE0A099394E41F563 /* checkauthcode.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25342FD9F0C55CE4431B5B6E /* checkauthcode.pb.swift */; };
+		6A6108E1BA86FC7739D3B96C /* user_modifybindphone.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF6C69CF4D4C6668931FC83 /* user_modifybindphone.pb.swift */; };
+		791115EE3A343263C823EA37 /* signin.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82877FA0D8C50539670A9B82 /* signin.pb.swift */; };
+		792E2A12CC410FC95A475388 /* merchantsearch.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4716A732EFFD646086016E9B /* merchantsearch.pb.swift */; };
+		7FC91A7130DED71BE35D04CE /* user_queryinfo.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E89DC5CF4FBCE90CE29760 /* user_queryinfo.pb.swift */; };
+		89AD9CB16BB90B6B6B2F5249 /* user_modelauth.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E083D126680CB00507A8500 /* user_modelauth.pb.swift */; };
+		8C2D469D61EF9BF760F89B37 /* user_appoint.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA6DB7A01F93EF640B1B012 /* user_appoint.pb.swift */; };
+		99A33252EF65D2766482CBD1 /* search.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB687A07481914416B0814 /* search.pb.swift */; };
+		9BD6AE4C6097562D627E67DA /* Pods_ProtoBufComp_ProtoBufCompUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6217074E3207A4BAF7204ACE /* Pods_ProtoBufComp_ProtoBufCompUITests.framework */; };
+		9D2A815BCE9DF06B3D58F08C /* home_handpick.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC73380D13DC58A6D5CA520 /* home_handpick.pb.swift */; };
+		9FD4C83AD421C46E778BCD78 /* user_order.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C548C242AEC2E85E4B7765 /* user_order.pb.swift */; };
+		A321665B20B356F3287289A1 /* login_wechatbindphone.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3816200545A807264CB76173 /* login_wechatbindphone.pb.swift */; };
+		A3B28C85BC4FB20687BAC892 /* user_modifypwd.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED025CCC9A6176E63DCE839 /* user_modifypwd.pb.swift */; };
 		A661439A2685D90900493A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66143992685D90900493A84 /* AppDelegate.swift */; };
 		A661439C2685D90900493A84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661439B2685D90900493A84 /* SceneDelegate.swift */; };
 		A661439E2685D90900493A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A661439D2685D90900493A84 /* ViewController.swift */; };
@@ -15,6 +42,22 @@
 		A66143A62685D90C00493A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66143A42685D90C00493A84 /* LaunchScreen.storyboard */; };
 		A66143B12685D90C00493A84 /* ProtoBufCompTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66143B02685D90C00493A84 /* ProtoBufCompTests.swift */; };
 		A66143BC2685D90C00493A84 /* ProtoBufCompUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66143BB2685D90C00493A84 /* ProtoBufCompUITests.swift */; };
+		A70B6313BA760D28F6C14DE6 /* login_checkwechatid.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCF3197DD7A6A10553B1391 /* login_checkwechatid.pb.swift */; };
+		A79ACD80FA7ABB8D57A8FBEB /* citylist.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF119E671C3AA23743C4D95A /* citylist.pb.swift */; };
+		A9DC6E2C2E8461C1D395C832 /* home_videoappoint.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C7A2F39A5ABA3A87E3C84 /* home_videoappoint.pb.swift */; };
+		AB7C5A4A2C429573133D703A /* common.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237C6FBB4B74235091057FEC /* common.pb.swift */; };
+		B5A6F862062F251A96142F45 /* user_models.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31201A2B530C1CDAE539AD5 /* user_models.pb.swift */; };
+		C09B9B56C0D81A59A36CDF01 /* user_collect.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3AD385C89B02390BDE354F /* user_collect.pb.swift */; };
+		C91AC921FFE7CFE2C56A0326 /* vip.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567D309948390B446990DE3 /* vip.pb.swift */; };
+		D79CBE9030FA41F2DB513C55 /* upload.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF4EC4E6F47BAACF49B692 /* upload.pb.swift */; };
+		DEDB6942CE358DCEBAA8D69B /* red.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E499171764D17FD7943EA33B /* red.pb.swift */; };
+		E13FE3BE233979175D3F2521 /* item.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE01B3E4C06B81772ADB852A /* item.pb.swift */; };
+		E3D5C4E7F25443A752C58197 /* notify.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA912B1928DCEB98EC4FC2AA /* notify.pb.swift */; };
+		E7153493618A05C54AA10CA3 /* login_retrievepwd.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA418BE028B52C5B901A86A /* login_retrievepwd.pb.swift */; };
+		E7C9F22456F26D67A953B713 /* sendauthcode.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9006939AC0C509F63D7A6C19 /* sendauthcode.pb.swift */; };
+		E98CB5B1BCC9570D6368F3A7 /* home_doctorslist.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E45AB1E304324CA7BCF2AA /* home_doctorslist.pb.swift */; };
+		F568E90A6AD4F57CD4EBBBF8 /* home_banneritems.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00745C3AC43F6FBAF6C6A57D /* home_banneritems.pb.swift */; };
+		F68221F6FF89D75F6F8E6719 /* user_evaluate.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB212FB910DBEC2860B7D6F /* user_evaluate.pb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +78,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00745C3AC43F6FBAF6C6A57D /* home_banneritems.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_banneritems.pb.swift; sourceTree = "<group>"; };
+		0ED025CCC9A6176E63DCE839 /* user_modifypwd.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_modifypwd.pb.swift; sourceTree = "<group>"; };
+		108FB68042FB9D0B40BC3769 /* signout.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = signout.pb.swift; sourceTree = "<group>"; };
+		1EBB687A07481914416B0814 /* search.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = search.pb.swift; sourceTree = "<group>"; };
+		237C6FBB4B74235091057FEC /* common.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = common.pb.swift; sourceTree = "<group>"; };
+		25342FD9F0C55CE4431B5B6E /* checkauthcode.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = checkauthcode.pb.swift; sourceTree = "<group>"; };
+		2CDF8D5991FB5EF4D5804213 /* Pods-ProtoBufComp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufComp.debug.xcconfig"; path = "Target Support Files/Pods-ProtoBufComp/Pods-ProtoBufComp.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3AD385C89B02390BDE354F /* user_collect.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_collect.pb.swift; sourceTree = "<group>"; };
+		37824CDDB82311315BAF0744 /* Pods_ProtoBufComp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtoBufComp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E89DC5CF4FBCE90CE29760 /* user_queryinfo.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_queryinfo.pb.swift; sourceTree = "<group>"; };
+		3816200545A807264CB76173 /* login_wechatbindphone.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = login_wechatbindphone.pb.swift; sourceTree = "<group>"; };
+		3C6901A2C85865F9AC31A063 /* user_updateinfo.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_updateinfo.pb.swift; sourceTree = "<group>"; };
+		3E083D126680CB00507A8500 /* user_modelauth.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_modelauth.pb.swift; sourceTree = "<group>"; };
+		4716A732EFFD646086016E9B /* merchantsearch.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = merchantsearch.pb.swift; sourceTree = "<group>"; };
+		4AE4C57D7F63C9618B5D0D70 /* user_centerinfo.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_centerinfo.pb.swift; sourceTree = "<group>"; };
+		554C7A2F39A5ABA3A87E3C84 /* home_videoappoint.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_videoappoint.pb.swift; sourceTree = "<group>"; };
+		5AF6C69CF4D4C6668931FC83 /* user_modifybindphone.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_modifybindphone.pb.swift; sourceTree = "<group>"; };
+		6217074E3207A4BAF7204ACE /* Pods_ProtoBufComp_ProtoBufCompUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtoBufComp_ProtoBufCompUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FC953BDF5AA26F27C1D1A5 /* Pods-ProtoBufCompTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufCompTests.release.xcconfig"; path = "Target Support Files/Pods-ProtoBufCompTests/Pods-ProtoBufCompTests.release.xcconfig"; sourceTree = "<group>"; };
+		6ACF4EC4E6F47BAACF49B692 /* upload.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = upload.pb.swift; sourceTree = "<group>"; };
+		6CCF3197DD7A6A10553B1391 /* login_checkwechatid.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = login_checkwechatid.pb.swift; sourceTree = "<group>"; };
+		6DA21BD58C4380FBBCA11628 /* user_oldpassword.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_oldpassword.pb.swift; sourceTree = "<group>"; };
+		6EB212FB910DBEC2860B7D6F /* user_evaluate.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_evaluate.pb.swift; sourceTree = "<group>"; };
+		777A35C98CE0093188B43F27 /* user_visitrecords.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_visitrecords.pb.swift; sourceTree = "<group>"; };
+		7EA6DB7A01F93EF640B1B012 /* user_appoint.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_appoint.pb.swift; sourceTree = "<group>"; };
+		82877FA0D8C50539670A9B82 /* signin.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = signin.pb.swift; sourceTree = "<group>"; };
+		86C548C242AEC2E85E4B7765 /* user_order.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_order.pb.swift; sourceTree = "<group>"; };
+		9006939AC0C509F63D7A6C19 /* sendauthcode.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = sendauthcode.pb.swift; sourceTree = "<group>"; };
+		90E45AB1E304324CA7BCF2AA /* home_doctorslist.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_doctorslist.pb.swift; sourceTree = "<group>"; };
+		980A5D0CE8CC3E9CC038CFA0 /* public.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = public.pb.swift; sourceTree = "<group>"; };
+		9BDB0B5D1BA555291BB96663 /* order.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = order.pb.swift; sourceTree = "<group>"; };
+		9D4AEAA93EC957DE26A36E09 /* Pods-ProtoBufComp-ProtoBufCompUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufComp-ProtoBufCompUITests.release.xcconfig"; path = "Target Support Files/Pods-ProtoBufComp-ProtoBufCompUITests/Pods-ProtoBufComp-ProtoBufCompUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A2EB44151BBB81D04EFF02C9 /* home_3dappoint.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_3dappoint.pb.swift; sourceTree = "<group>"; };
+		A46960A820A9AA78433D41B7 /* satisfaction.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = satisfaction.pb.swift; sourceTree = "<group>"; };
+		A4AB5B7DF25E871A8D17432E /* Pods-ProtoBufCompTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufCompTests.debug.xcconfig"; path = "Target Support Files/Pods-ProtoBufCompTests/Pods-ProtoBufCompTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D2483B5236405F425AD499 /* Pods_ProtoBufCompTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtoBufCompTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66143962685D90900493A84 /* ProtoBufComp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBufComp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66143992685D90900493A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A661439B2685D90900493A84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +128,19 @@
 		A66143B72685D90C00493A84 /* ProtoBufCompUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoBufCompUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66143BB2685D90C00493A84 /* ProtoBufCompUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoBufCompUITests.swift; sourceTree = "<group>"; };
 		A66143BD2685D90C00493A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF6EC884E15B0390E03E087 /* home_hospital.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_hospital.pb.swift; sourceTree = "<group>"; };
+		CAC73380D13DC58A6D5CA520 /* home_handpick.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = home_handpick.pb.swift; sourceTree = "<group>"; };
+		CD95CC1724E5F511A0F51A63 /* Pods-ProtoBufComp-ProtoBufCompUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufComp-ProtoBufCompUITests.debug.xcconfig"; path = "Target Support Files/Pods-ProtoBufComp-ProtoBufCompUITests/Pods-ProtoBufComp-ProtoBufCompUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D567D309948390B446990DE3 /* vip.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = vip.pb.swift; sourceTree = "<group>"; };
+		DA912B1928DCEB98EC4FC2AA /* notify.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = notify.pb.swift; sourceTree = "<group>"; };
+		DE01B3E4C06B81772ADB852A /* item.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = item.pb.swift; sourceTree = "<group>"; };
+		E31201A2B530C1CDAE539AD5 /* user_models.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = user_models.pb.swift; sourceTree = "<group>"; };
+		E499171764D17FD7943EA33B /* red.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = red.pb.swift; sourceTree = "<group>"; };
+		ECA418BE028B52C5B901A86A /* login_retrievepwd.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = login_retrievepwd.pb.swift; sourceTree = "<group>"; };
+		F6030FA66C451D7340033FE7 /* Pods-ProtoBufComp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBufComp.release.xcconfig"; path = "Target Support Files/Pods-ProtoBufComp/Pods-ProtoBufComp.release.xcconfig"; sourceTree = "<group>"; };
+		FCB95FC077A8E8535A17293A /* complaintpraise.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = complaintpraise.pb.swift; sourceTree = "<group>"; };
+		FD65D8CC7BDCE03967EAA792 /* wiki.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = wiki.pb.swift; sourceTree = "<group>"; };
+		FF119E671C3AA23743C4D95A /* citylist.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = citylist.pb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CC8C790A3B20C68DCAF4AC8 /* Pods_ProtoBufComp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357C8662D5E04C7B3E577B3B /* Pods_ProtoBufCompTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +164,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD6AE4C6097562D627E67DA /* Pods_ProtoBufComp_ProtoBufCompUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78791A627D2D9DE26002ED26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CDF8D5991FB5EF4D5804213 /* Pods-ProtoBufComp.debug.xcconfig */,
+				F6030FA66C451D7340033FE7 /* Pods-ProtoBufComp.release.xcconfig */,
+				CD95CC1724E5F511A0F51A63 /* Pods-ProtoBufComp-ProtoBufCompUITests.debug.xcconfig */,
+				9D4AEAA93EC957DE26A36E09 /* Pods-ProtoBufComp-ProtoBufCompUITests.release.xcconfig */,
+				A4AB5B7DF25E871A8D17432E /* Pods-ProtoBufCompTests.debug.xcconfig */,
+				66FC953BDF5AA26F27C1D1A5 /* Pods-ProtoBufCompTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C531CB26DF5F60DB8C8706E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37824CDDB82311315BAF0744 /* Pods_ProtoBufComp.framework */,
+				6217074E3207A4BAF7204ACE /* Pods_ProtoBufComp_ProtoBufCompUITests.framework */,
+				A4D2483B5236405F425AD499 /* Pods_ProtoBufCompTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A661438D2685D90900493A84 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +202,8 @@
 				A66143AF2685D90C00493A84 /* ProtoBufCompTests */,
 				A66143BA2685D90C00493A84 /* ProtoBufCompUITests */,
 				A66143972685D90900493A84 /* Products */,
+				78791A627D2D9DE26002ED26 /* Pods */,
+				8C531CB26DF5F60DB8C8706E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +220,7 @@
 		A66143982685D90900493A84 /* ProtoBufComp */ = {
 			isa = PBXGroup;
 			children = (
-				A66143CC2685D92300493A84 /* Protobuf */,
+				A66143CC2685D92300493A84 /* ProtoBuf */,
 				A66143992685D90900493A84 /* AppDelegate.swift */,
 				A661439B2685D90900493A84 /* SceneDelegate.swift */,
 				A661439D2685D90900493A84 /* ViewController.swift */,
@@ -129,11 +250,51 @@
 			path = ProtoBufCompUITests;
 			sourceTree = "<group>";
 		};
-		A66143CC2685D92300493A84 /* Protobuf */ = {
+		A66143CC2685D92300493A84 /* ProtoBuf */ = {
 			isa = PBXGroup;
 			children = (
+				0ED025CCC9A6176E63DCE839 /* user_modifypwd.pb.swift */,
+				90E45AB1E304324CA7BCF2AA /* home_doctorslist.pb.swift */,
+				777A35C98CE0093188B43F27 /* user_visitrecords.pb.swift */,
+				E31201A2B530C1CDAE539AD5 /* user_models.pb.swift */,
+				1EBB687A07481914416B0814 /* search.pb.swift */,
+				6DA21BD58C4380FBBCA11628 /* user_oldpassword.pb.swift */,
+				6ACF4EC4E6F47BAACF49B692 /* upload.pb.swift */,
+				ECA418BE028B52C5B901A86A /* login_retrievepwd.pb.swift */,
+				237C6FBB4B74235091057FEC /* common.pb.swift */,
+				108FB68042FB9D0B40BC3769 /* signout.pb.swift */,
+				25342FD9F0C55CE4431B5B6E /* checkauthcode.pb.swift */,
+				3816200545A807264CB76173 /* login_wechatbindphone.pb.swift */,
+				554C7A2F39A5ABA3A87E3C84 /* home_videoappoint.pb.swift */,
+				82877FA0D8C50539670A9B82 /* signin.pb.swift */,
+				9006939AC0C509F63D7A6C19 /* sendauthcode.pb.swift */,
+				A2EB44151BBB81D04EFF02C9 /* home_3dappoint.pb.swift */,
+				37E89DC5CF4FBCE90CE29760 /* user_queryinfo.pb.swift */,
+				E499171764D17FD7943EA33B /* red.pb.swift */,
+				FCB95FC077A8E8535A17293A /* complaintpraise.pb.swift */,
+				BEF6EC884E15B0390E03E087 /* home_hospital.pb.swift */,
+				A46960A820A9AA78433D41B7 /* satisfaction.pb.swift */,
+				86C548C242AEC2E85E4B7765 /* user_order.pb.swift */,
+				5AF6C69CF4D4C6668931FC83 /* user_modifybindphone.pb.swift */,
+				3C6901A2C85865F9AC31A063 /* user_updateinfo.pb.swift */,
+				D567D309948390B446990DE3 /* vip.pb.swift */,
+				DA912B1928DCEB98EC4FC2AA /* notify.pb.swift */,
+				FF119E671C3AA23743C4D95A /* citylist.pb.swift */,
+				3E083D126680CB00507A8500 /* user_modelauth.pb.swift */,
+				4716A732EFFD646086016E9B /* merchantsearch.pb.swift */,
+				980A5D0CE8CC3E9CC038CFA0 /* public.pb.swift */,
+				FD65D8CC7BDCE03967EAA792 /* wiki.pb.swift */,
+				6CCF3197DD7A6A10553B1391 /* login_checkwechatid.pb.swift */,
+				4AE4C57D7F63C9618B5D0D70 /* user_centerinfo.pb.swift */,
+				7EA6DB7A01F93EF640B1B012 /* user_appoint.pb.swift */,
+				6EB212FB910DBEC2860B7D6F /* user_evaluate.pb.swift */,
+				2F3AD385C89B02390BDE354F /* user_collect.pb.swift */,
+				00745C3AC43F6FBAF6C6A57D /* home_banneritems.pb.swift */,
+				DE01B3E4C06B81772ADB852A /* item.pb.swift */,
+				9BDB0B5D1BA555291BB96663 /* order.pb.swift */,
+				CAC73380D13DC58A6D5CA520 /* home_handpick.pb.swift */,
 			);
-			path = Protobuf;
+			path = ProtoBuf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A66143C02685D90C00493A84 /* Build configuration list for PBXNativeTarget "ProtoBufComp" */;
 			buildPhases = (
+				26B7064D13B4A4B54203717C /* [CP] Check Pods Manifest.lock */,
 				A66143922685D90900493A84 /* Sources */,
 				A66143932685D90900493A84 /* Frameworks */,
 				A66143942685D90900493A84 /* Resources */,
+				1D1C27FD9C0135A2C45C05B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A66143C32685D90C00493A84 /* Build configuration list for PBXNativeTarget "ProtoBufCompTests" */;
 			buildPhases = (
+				AE693FA48ADD1DAC2C7C3E7F /* [CP] Check Pods Manifest.lock */,
 				A66143A82685D90C00493A84 /* Sources */,
 				A66143A92685D90C00493A84 /* Frameworks */,
 				A66143AA2685D90C00493A84 /* Resources */,
@@ -178,9 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A66143C62685D90C00493A84 /* Build configuration list for PBXNativeTarget "ProtoBufCompUITests" */;
 			buildPhases = (
+				79BFFE18B0E3EED206B73C14 /* [CP] Check Pods Manifest.lock */,
 				A66143B32685D90C00493A84 /* Sources */,
 				A66143B42685D90C00493A84 /* Frameworks */,
 				A66143B52685D90C00493A84 /* Resources */,
+				766CDF58D58B517D744BC450 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +427,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D1C27FD9C0135A2C45C05B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp/Pods-ProtoBufComp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp/Pods-ProtoBufComp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp/Pods-ProtoBufComp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26B7064D13B4A4B54203717C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtoBufComp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		766CDF58D58B517D744BC450 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp-ProtoBufCompUITests/Pods-ProtoBufComp-ProtoBufCompUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp-ProtoBufCompUITests/Pods-ProtoBufComp-ProtoBufCompUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProtoBufComp-ProtoBufCompUITests/Pods-ProtoBufComp-ProtoBufCompUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BFFE18B0E3EED206B73C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtoBufComp-ProtoBufCompUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE693FA48ADD1DAC2C7C3E7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtoBufCompTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A66143922685D90900493A84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +538,46 @@
 				A661439E2685D90900493A84 /* ViewController.swift in Sources */,
 				A661439A2685D90900493A84 /* AppDelegate.swift in Sources */,
 				A661439C2685D90900493A84 /* SceneDelegate.swift in Sources */,
+				A3B28C85BC4FB20687BAC892 /* user_modifypwd.pb.swift in Sources */,
+				E98CB5B1BCC9570D6368F3A7 /* home_doctorslist.pb.swift in Sources */,
+				3697C7D95D6CC82F67752329 /* user_visitrecords.pb.swift in Sources */,
+				B5A6F862062F251A96142F45 /* user_models.pb.swift in Sources */,
+				99A33252EF65D2766482CBD1 /* search.pb.swift in Sources */,
+				1F2675D4B9CBF206B29E6572 /* user_oldpassword.pb.swift in Sources */,
+				D79CBE9030FA41F2DB513C55 /* upload.pb.swift in Sources */,
+				E7153493618A05C54AA10CA3 /* login_retrievepwd.pb.swift in Sources */,
+				AB7C5A4A2C429573133D703A /* common.pb.swift in Sources */,
+				45BEE2DDF0A9FB9F2CECD809 /* signout.pb.swift in Sources */,
+				5017CEAFE0A099394E41F563 /* checkauthcode.pb.swift in Sources */,
+				A321665B20B356F3287289A1 /* login_wechatbindphone.pb.swift in Sources */,
+				A9DC6E2C2E8461C1D395C832 /* home_videoappoint.pb.swift in Sources */,
+				791115EE3A343263C823EA37 /* signin.pb.swift in Sources */,
+				E7C9F22456F26D67A953B713 /* sendauthcode.pb.swift in Sources */,
+				29EC96585EA7B49ADCEDCCA8 /* home_3dappoint.pb.swift in Sources */,
+				7FC91A7130DED71BE35D04CE /* user_queryinfo.pb.swift in Sources */,
+				DEDB6942CE358DCEBAA8D69B /* red.pb.swift in Sources */,
+				413C46ED31A8C5274F108405 /* complaintpraise.pb.swift in Sources */,
+				24B6C750753326CA47579BD5 /* home_hospital.pb.swift in Sources */,
+				2D2E1930E6F25AFA5084B0E4 /* satisfaction.pb.swift in Sources */,
+				9FD4C83AD421C46E778BCD78 /* user_order.pb.swift in Sources */,
+				6A6108E1BA86FC7739D3B96C /* user_modifybindphone.pb.swift in Sources */,
+				178F508C1599DF7F37458598 /* user_updateinfo.pb.swift in Sources */,
+				C91AC921FFE7CFE2C56A0326 /* vip.pb.swift in Sources */,
+				E3D5C4E7F25443A752C58197 /* notify.pb.swift in Sources */,
+				A79ACD80FA7ABB8D57A8FBEB /* citylist.pb.swift in Sources */,
+				89AD9CB16BB90B6B6B2F5249 /* user_modelauth.pb.swift in Sources */,
+				792E2A12CC410FC95A475388 /* merchantsearch.pb.swift in Sources */,
+				3AB9767851851B17ED2AB8BF /* public.pb.swift in Sources */,
+				2B25C20BBB3D0EE9AACEEBFB /* wiki.pb.swift in Sources */,
+				A70B6313BA760D28F6C14DE6 /* login_checkwechatid.pb.swift in Sources */,
+				0A84EB61865F80A7938B02C9 /* user_centerinfo.pb.swift in Sources */,
+				8C2D469D61EF9BF760F89B37 /* user_appoint.pb.swift in Sources */,
+				F68221F6FF89D75F6F8E6719 /* user_evaluate.pb.swift in Sources */,
+				C09B9B56C0D81A59A36CDF01 /* user_collect.pb.swift in Sources */,
+				F568E90A6AD4F57CD4EBBBF8 /* home_banneritems.pb.swift in Sources */,
+				E13FE3BE233979175D3F2521 /* item.pb.swift in Sources */,
+				307E078433F25F5234F6BA71 /* order.pb.swift in Sources */,
+				9D2A815BCE9DF06B3D58F08C /* home_handpick.pb.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +750,7 @@
 		};
 		A66143C12685D90C00493A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CDF8D5991FB5EF4D5804213 /* Pods-ProtoBufComp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +770,7 @@
 		};
 		A66143C22685D90C00493A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6030FA66C451D7340033FE7 /* Pods-ProtoBufComp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +790,7 @@
 		};
 		A66143C42685D90C00493A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AB5B7DF25E871A8D17432E /* Pods-ProtoBufCompTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +813,7 @@
 		};
 		A66143C52685D90C00493A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FC953BDF5AA26F27C1D1A5 /* Pods-ProtoBufCompTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -523,6 +836,7 @@
 		};
 		A66143C72685D90C00493A84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD95CC1724E5F511A0F51A63 /* Pods-ProtoBufComp-ProtoBufCompUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +857,7 @@
 		};
 		A66143C82685D90C00493A84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4AEAA93EC957DE26A36E09 /* Pods-ProtoBufComp-ProtoBufCompUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
